@@ -14,5 +14,7 @@ public class StatsApp {
         System.out.println(statsInt.sameAvg(statsInt2));
         System.out.println(statsInt.sameAvg(statsInt3));
         System.out.println(statsInt.sameAvg((statsDouble)));
+
+        System.out.println(statsNumber.getElements());
     }
 }
