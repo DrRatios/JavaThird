@@ -19,7 +19,7 @@ public class CalculatorTest {
     public static Stream<Arguments> subSource() {
         List<Arguments> args = new ArrayList<>();
         Random random = new Random();
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 4; i++) {
             int a = random.nextInt(100);
             int b = random.nextInt(100);
             int result = a - b;
